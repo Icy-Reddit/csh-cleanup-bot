@@ -2,7 +2,7 @@ name: Yoori Auto-Approve
 
 on:
   schedule:
-    - cron: "3/6 * * * *"
+    - cron: "*/7 * * * *"
   workflow_dispatch:
 
 permissions:
